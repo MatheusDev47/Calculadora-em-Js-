@@ -8,11 +8,9 @@
 
   <body style="background: #D9D9D9">
 
-    <div class="container">
+    <div class="p-4">
       <div class="row">
         <div class="col d-flex justify-content-center">
-          <br />
-
           <div class="calculadora">
             <input id="resultField" type="text" class="form-control resultado" placeholder="0" disabled="disabled"/>
             
@@ -20,32 +18,35 @@
               <button type="button" class="btn btn-dark btn-lg clear font-weight-light delete">C</button>
               <button type="button" value="/" class="btn btn-dark btn-lg font-weight-light acao">/</button>
               <button type="button" value="*" class="btn btn-dark btn-lg font-weight-light acao">x</button>
+              <button type="button" value="-" class="btn btn-dark btn-lg font-weight-light acao">-</button>
             </div>
 
             <div class="row">
               <button type="button" value="7" class="btn btn-dark btn-lg font-weight-light valor">7</button>
               <button type="button" value="8" class="btn btn-dark btn-lg font-weight-light valor">8</button>
               <button type="button" value="9" class="btn btn-dark btn-lg font-weight-light valor">9</button>
-              <button type="button" value="-" class="btn btn-dark btn-lg font-weight-light acao">-</button>
+              <button type="button" value="+" class="btn btn-dark btn-lg font-weight-light acao">+</button>
             </div>
             
             <div class="row">
               <button type="button" value="4" class="btn btn-dark btn-lg font-weight-light valor">4</button>
               <button type="button" value="5" class="btn btn-dark btn-lg font-weight-light valor">5</button>
               <button type="button" value="6" class="btn btn-dark btn-lg font-weight-light valor">6</button>
-              <button type="button" value="+" class="btn btn-dark btn-lg font-weight-light acao">+</button>
+              <button type="button" value="** (1/2)" class="btn btn-dark btn-lg font-weight-light acao">(√)</button>
             </div>
 
             <div class="row">
               <button type="button" value="1" class="btn btn-dark btn-lg font-weight-light valor">1</button>
               <button type="button" value="2" class="btn btn-dark btn-lg font-weight-light valor">2</button>
               <button type="button" value="3" class="btn btn-dark btn-lg font-weight-light valor">3</button>
-              <button type="button" class="btn btn-dark btn-lg enter result">=</button>
+              <button type="button" class="btn btn-dark btn-lg pi">π</button>
             </div>
 
-            <div class="row" style="margin-top: -60px">
+            <div class="row mt-1">
               <button type="button" value="0" class="btn btn-dark zero btn-lg font-weight-light valor">0</button>
               <button type="button" value="." class="btn btn-dark btn-lg font-weight-light acao">.</button>
+              <button type="button" class="btn btn-dark btn-lg result">=</button>
+              <button type="button" value="** (2)" class="btn btn-dark btn-lg font-weight-light acao">x²</button>
             </div>
 
           </div>
