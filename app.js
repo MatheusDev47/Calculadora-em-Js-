@@ -33,4 +33,3 @@ resolve.click(() =>{ calc() })
 
 
 
-
